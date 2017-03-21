@@ -1,0 +1,22 @@
+//
+//  String+Extension.swift
+//  GHCentralizedControl
+//
+//  Created by YNKJMACMINI2 on 16/3/3.
+//  Copyright © 2016年 YNKJMACMINI2. All rights reserved.
+//
+
+import Foundation
+
+extension String{
+    static func string(arrString:[String],separator:String)->String{
+        var result:String = ""
+        for item in arrString {
+            if !(result.isEmpty) {
+                result += separator
+            }
+            result += item
+        }
+        return result
+    }
+}

@@ -1,0 +1,23 @@
+//
+//  UIScrollview+Extension.swift
+//  GHCentralizedControl
+//
+//  Created by YNKJMACMINI2 on 16/2/24.
+//  Copyright © 2016年 YNKJMACMINI2. All rights reserved.
+//
+
+import UIKit
+
+extension UIScrollView{
+    
+    //判断是否滑倒底部
+    var isToBottom:Bool{
+        let scrollHeight:CGFloat = self.frame.size.height
+        let offsetY:CGFloat = self.contentOffset.y
+        let distanceFromBottom:CGFloat = self.contentSize.height - offsetY
+        if distanceFromBottom < scrollHeight {
+            return true
+        }
+        return false
+    }
+}
