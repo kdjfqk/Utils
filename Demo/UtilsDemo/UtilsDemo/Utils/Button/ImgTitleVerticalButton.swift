@@ -22,7 +22,7 @@ class ImgTitleVerticalButton: UIButton {
             let width:CGFloat = self.currentImage!.size.width
             let height:CGFloat = self.currentImage!.size.height
             let x:CGFloat = (self.frame.size.width - width) / 2
-            let y:CGFloat = self.titleLabel!.frame.origin.y - height - ImgTitleButtonVerticalSpace //(self.frame.size.height - self.titleLabel!.frame.height - height) / 2
+            let y:CGFloat = (self.frame.size.height - self.titleLabel!.frame.height - height) / 2  //self.titleLabel!.frame.origin.y - height - ImgTitleButtonVerticalSpace
             let imageFrame:CGRect = CGRect(x: x, y: y, width: width, height: height)
             self.imageView?.frame = imageFrame
             self.titleLabel?.textAlignment = NSTextAlignment.center

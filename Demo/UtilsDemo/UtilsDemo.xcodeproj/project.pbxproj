@@ -43,6 +43,8 @@
 		390F7FB31E80D9A300CCB5A1 /* VideoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7FB21E80D9A300CCB5A1 /* VideoUtil.swift */; };
 		390F7FB51E80D9F200CCB5A1 /* TabBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7FB41E80D9F200CCB5A1 /* TabBarUtil.swift */; };
 		390F7FB71E80DA2A00CCB5A1 /* NavigationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7FB61E80DA2A00CCB5A1 /* NavigationUtil.swift */; };
+		390F7FB91E80F16400CCB5A1 /* LoginTextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7FB81E80F16400CCB5A1 /* LoginTextFieldVC.swift */; };
+		390F7FBB1E80F71700CCB5A1 /* VerticalBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F7FBA1E80F71700CCB5A1 /* VerticalBtnVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		390F7FB21E80D9A300CCB5A1 /* VideoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoUtil.swift; sourceTree = "<group>"; };
 		390F7FB41E80D9F200CCB5A1 /* TabBarUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarUtil.swift; sourceTree = "<group>"; };
 		390F7FB61E80DA2A00CCB5A1 /* NavigationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUtil.swift; sourceTree = "<group>"; };
+		390F7FB81E80F16400CCB5A1 /* LoginTextFieldVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextFieldVC.swift; sourceTree = "<group>"; };
+		390F7FBA1E80F71700CCB5A1 /* VerticalBtnVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalBtnVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 				390F7F4F1E80D44300CCB5A1 /* Utils */,
 				390F7EAF1E80D31900CCB5A1 /* AppDelegate.swift */,
 				390F7EB11E80D31900CCB5A1 /* ViewController.swift */,
+				390F7FB81E80F16400CCB5A1 /* LoginTextFieldVC.swift */,
+				390F7FBA1E80F71700CCB5A1 /* VerticalBtnVC.swift */,
 				390F7EB31E80D31900CCB5A1 /* Main.storyboard */,
 				390F7EB61E80D31900CCB5A1 /* Assets.xcassets */,
 				390F7EB81E80D31900CCB5A1 /* LaunchScreen.storyboard */,
@@ -203,12 +209,12 @@
 			children = (
 				390F7F6E1E80D44300CCB5A1 /* Launch */,
 				390F7F501E80D44300CCB5A1 /* Album */,
-				390F7F6B1E80D44300CCB5A1 /* File */,
 				390F7F731E80D44300CCB5A1 /* LoginTextField */,
 				390F7F531E80D44300CCB5A1 /* Button */,
 				390F7F861E80D44300CCB5A1 /* NavigationBar */,
 				390F7F8B1E80D44300CCB5A1 /* TabBar */,
 				390F7F801E80D44300CCB5A1 /* MBProgressHUD */,
+				390F7F6B1E80D44300CCB5A1 /* File */,
 				390F7F701E80D44300CCB5A1 /* Location */,
 				390F7F891E80D44300CCB5A1 /* Reflection */,
 				390F7F911E80D44300CCB5A1 /* Video */,
@@ -552,6 +558,7 @@
 				390F7F961E80D44300CCB5A1 /* DeviceIDUtil.m in Sources */,
 				390F7F941E80D44300CCB5A1 /* AlbumManager.swift in Sources */,
 				390F7FA51E80D44300CCB5A1 /* Shakable.swift in Sources */,
+				390F7FB91E80F16400CCB5A1 /* LoginTextFieldVC.swift in Sources */,
 				390F7F981E80D44300CCB5A1 /* DES.m in Sources */,
 				390F7F971E80D44300CCB5A1 /* KeychainWrapper.m in Sources */,
 				390F7F9A1E80D44300CCB5A1 /* MyMD5.m in Sources */,
@@ -567,6 +574,7 @@
 				390F7F991E80D44300CCB5A1 /* GTMBase64.m in Sources */,
 				390F7F931E80D44300CCB5A1 /* AlbumFileAccessor.swift in Sources */,
 				390F7FB71E80DA2A00CCB5A1 /* NavigationUtil.swift in Sources */,
+				390F7FBB1E80F71700CCB5A1 /* VerticalBtnVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
