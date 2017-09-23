@@ -30,8 +30,6 @@
     hud.labelText = message;
     hud.removeFromSuperViewOnHide = YES;
     block(hud);
-    
-    hud.
 }
 
 +(void)showLoadingWithCustomView:(UIView *)coustomView toView:(UIView *)view whileExcusingBlock:(void(^)(MBProgressHUD *hud))block{
